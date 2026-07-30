@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numfmt-cli"
+version = "1.0.0"
+description = "Format large numbers with human-readable suffixes (1234567 -> 1.2M) and parse them back, auto-detecting direction."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "All Rights Reserved" }
+authors = [{ name = "sidcore-dev" }]
+keywords = ["numbers", "formatting", "cli", "devtools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Environment :: Console",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+numfmt-cli = "numfmt_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
