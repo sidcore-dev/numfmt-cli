@@ -8,12 +8,12 @@ version = "1.0.0"
 description = "Format large numbers with human-readable suffixes (1234567 -> 1.2M) and parse them back, auto-detecting direction."
 readme = "README.md"
 requires-python = ">=3.8"
-license = { text = "All Rights Reserved" }
+license = { text = "MIT" }
 authors = [{ name = "sidcore-dev" }]
 keywords = ["numbers", "formatting", "cli", "devtools"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: Other/Proprietary License",
+    "License :: OSI Approved :: MIT License",
     "Environment :: Console",
     "Topic :: Utilities",
 ]
